@@ -14,7 +14,7 @@ cask "activity-plus" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Activity+.app"
   binary "#{appdir}/Activity+.app/Contents/Resources/aplus"
