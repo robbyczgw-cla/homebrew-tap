@@ -1,6 +1,6 @@
 cask "activity-plus" do
-  version "0.3.0"
-  sha256 "3c13d655144bfbf590d91b51b68f7bb20fe2c1d96ab9422d83e63cef2d69b633"
+  version "0.3.1"
+  sha256 "5da99b08ef806bb0b4efbd0c04d36740a6be4ce6cd94e5495f33789fd8988dbf"
 
   url "https://github.com/robbyczgw-cla/activity-plus/releases/download/v#{version}/Activity+-#{version}.zip"
   name "Activity+"
