@@ -1,8 +1,11 @@
 # Homebrew tap
 
 ```sh
+brew trust --cask robbyczgw-cla/tap/activity-plus
 brew install robbyczgw-cla/tap/activity-plus
 ```
+
+Homebrew only loads casks from taps you have trusted, hence the first line.
 
 | Cask | App |
 |---|---|
